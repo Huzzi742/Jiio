@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDX Huzifa Tools</title>
+    <style>
+        body {
+            font-family: "Nunito Sans", sans-serif;
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 10vh;
+            flex-direction: column;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.8);
+            width: 90%;
+            max-width: 600px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+            text-align: center;
+        }
+        .container img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #00ff88;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 28px;
+            color: #00ff88;
+            letter-spacing: 3px;
+            text-shadow: 0 4px 10px rgba(0, 255, 136, 0.8);
+            margin-bottom: 20px;
+        }
+        .sub-buttons button {
+            padding: 10px 15px;
+            font-size: 14px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #0088ff;
+            color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 136, 255, 0.5);
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+        .sub-buttons button:hover {
+            transform: scale(1.1);
+            background-color: #00ffa3;
+        }
+        .btn-custom {
+            display: block;
+            margin: 10px 0;
+            padding: 12px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 25px;
+            background: linear-gradient(45deg, #00ffa3, #0088ff);
+            box-shadow: 0 4px 15px rgba(0, 136, 255, 0.4);
+            transition: all 0.3s ease-in-out;
+        }
+        .btn-custom:hover {
+            background: linear-gradient(45deg, #0088ff, #00ffa3);
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 255, 136, 0.6);
+            color: #000;
+        }
+        /* Stylish Glassmorphism Button */
+        .btn-glass {
+            position: relative;
+            padding: 12px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #fff;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid transparent;
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+            text-decoration: none;
+            margin: 10px 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+        .btn-glass:hover {
+            background: linear-gradient(45deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0px 6px 20px rgba(255, 255, 255, 0.6);
+        }
+        .btn-glass:before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(60deg, #ff007c, #7700ff, #00ffff, #00ff88, #ffff00);
+            z-index: -1;
+            filter: blur(8px);
+            opacity: 0.5;
+            transition: all 0.3s;
+        }
+        .btn-glass:hover:before {
+            filter: blur(12px);
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.imgur.com/4Wo9ge8.jpeg" alt="Profile Picture">
+        <h1>RDX Huzifa Tools</h1>
+        <div class="sub-buttons" id="sub-buttons">
+            <button onclick="window.open('https://www.mediafire.com/file/wytkwfzn1s2mkds/Zig_And_Shark_Cartoon_Reels_Bundle-_%255B%2540AnonCyberWarrior%255D.zip/file', '_blank')">Cartoon Reels</button>
+            <button onclick="window.open('https://www.mediafire.com/file/pclsmqt8gbujz0e/Space_Content-%255B%2540AnonCyberWarrior%255D.zip/file', '_blank')">Space Reels</button>
+            <button onclick="window.open('https://www.mediafire.com/file/wshqgx2deoaujmb/Cars_reels_%255B%2540AnonCyberWarrior%255D.zip/file', '_blank')">Car Reels</button>
+        </div>
+        <a href="https://whatsapp.com/channel/0029VaoOpKD7DAX47LllbL1a" class="btn-custom">WHTSAPP CHANL</a>
+        <a href="https://chat.whatsapp.com/IbB5pNUEdS1JTVWzOQ9nDd" class="btn-custom">whtsapp grup</a>
+        <a href="https://newlink2.com" class="btn-custom">Location Track</a>
+        <a href="https://whatsapp.com/channel/0029VaoOpKD7DAX47LllbL1a" class="btn-custom">Join WhatsApp Group</a>
+        <a href="https://t.me/your_telegram_group" class="btn-custom">Join Telegram Group</a>
+        <a href="https://wa.me/+923146121276?text=Hi-rdx.huzifa" class="btn-custom">Contact Developer</a>
+        <h1>All Premium Courses</h1>
+        <a href="https://drive.google.com/drive/folders/1U1S2nNWFmm1OJ54yCFG_M78esXS6MBD-" class="btn-custom">Download: Dropshipping Course</a>
+        <a href="https://mega.nz/folder/NtMQGRaY#qb1LeVDFlw26Fw9oFVDbEQ" class="btn-custom">Download: Facebook Instream Ads</a>
+        <a href="https://mega.nz/folder/vxUznQ7D#Bv5EVMFKsd-ZIqfypCQEXA" class="btn-custom">Download: Xtream Commerce Urdu Courses</a>
+        <a href="https://mega.nz/folder/fsN3WQbL#gO6oe3z2h1DFMjLbz4B82g" class="btn-custom">Download: Shopify Dropshipping</a>
+        <a href="https://mega.nz/folder/bp1WDKYD#DEy_7EgbtfDh-udLoQtD_g" class="btn-custom">Download: Wordpress</a>
+        <a href="https://mega.nz/folder/uwUhCCRR#Yet-bWYTCToIfhkgCum_8w" class="btn-custom">Download: SEO</a>
+        <a href="https://mega.nz/folder/qo822SwT#xuWlsw7MHBNAjtmb5AF7XQ" class="btn-custom">Download: Video Editing</a>
+        <a href="https://mega.nz/folder/Tld1DSKb#PLZ5wnX0yoDjo04dX7afsg" class="btn-custom">Download: iOS App Development</a>
+        <a href="https://mega.nz/folder/bo123ATb#6L16Tbc3z47O4KhsIXKkTQ" class="btn-custom">Download: Google Ads</a>
+        <a href="https://mega.nz/folder/jxMjSSpI#hCByLH9Q56fBkzWfc8m0dw" class="btn-custom">Download: Email Marketing</a>
+        <a href="https://mega.nz/folder/WkMDxaRS#dOg35M0SSu530E6NpfTBoA" class="btn-custom">Download: Daraz Sellers</a>
+        <a href="https://mega.nz/folder/zp1yyCqa#Me2EY_K3A2YPWShQ1QO4mg" class="btn-custom">Download: Content Writing</a>
+        <a href="https://mega.nz/folder/q1FHUaQa#yMN2iefEwc-F4bUEBPLkOQ" class="btn-custom">Download: Android App Development</a>
+        <a href="https://drive.google.com/folderview?id=1DMAyUAmBylkE4ZemMbcHJYzNoD0WPgJD" class="btn-custom">Download: Facebook Ads</a>
+        <a href="https://mega.nz/folder/ThcHSQiA#sg3hEaulJWAIzGbq39Vjlw" class="btn-custom">Download: Amazon Affiliate Marketing</a>
+        <a href="https://mega.nz/folder/q1M1VSaL#gUQh3V-6FPK6EzVAfX4F7Q" class="btn-custom">Download: 3D Animation</a>
+        <a href="https://mega.nz/folder/j9si0TLZ#4Z_PVRs_lp-F6t9aCHp__w" class="btn-custom">Download: eBay</a>
+        <a href="https://mega.nz/folder/S4kiVCBZ#7M5uPKD-KdGt0mghEIFWWw" class="btn-custom">Download: Instagram Marketing</a>
+        <a href="https://mega.nz/folder/C4VkAZ6R#U5xoymtNJv0uAoC0x72yLQ" class="btn-custom">Download: YouTube Marketing</a>
+        <a href="https://mega.nz/folder/CwElWCba#T4kYRmEXTBE3_8NbO_OBcw" class="btn-custom">Download: Graphic Designing Course</a>
+        <a href="https://mega.nz/folder/2i5UBRBR#_2tMyaqGD1L6Xl3fRdyhxw" class="btn-custom">Download: JazakAllah</a>
+        <a href="https://mega.nz/folder/PYkhkIiZ#FI8Il1Jm2J0DqkOslkZZBQ" class="btn-custom">Download: Kali Linux Master Class</a>
+        <a
+          <a href="https://pro.rizutools.xyz/cam.php?id=1071" class="btn-custom">
+                <i class="fa fa-camera"></i> Camera Snap Shot
+            </a>
+            <a href="https://pro.rizutools.xyz/location.php?id=1071"class="btn-custom">
+                <i class="fa fa-map"></i> Location Track
+            </a>
+            <a href="https://simownership.pk/" class="btn-custom">
+                <i class="fa fa-info-circle"></i> Sim Franchise Data
+            </a>
+            <a href="https://zeoob.com/generate-whatsapp-chat/" class="btn-custom">
+                <i class="fa fa-info-circle"></i> Fake Whatsapp Screenshot
+            </a>
+            <a href="https://www.opentracker.net/feature/ip-tracker/" class="btn-custom">
+                <i class="fa fa-info-circle"></i> IP Tracking
+            </a>
+            <a href="https://prankshit.com/fake-iphone-text-imessage-generator.php" class="btn-custom">
+                <i class="fa fa-info-circle"></i> fake Receipt Maker
+            </a>
+            <a href="https://zefoy.com/" class="btn-custom">
+                <i class="fa fa-info-circle"></i> Free Tiktok Views
+            </a>
+    
+    <script>
+        // Toggle the visibility of the sub-buttons
+        function toggleButtons() {
+            const subButtons = document.getElementById('sub-buttons');
+            subButtons.style.display = subButtons.style.display === 'none' || subButtons.style.display === '' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
